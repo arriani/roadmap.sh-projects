@@ -1,0 +1,61 @@
+*{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+}
+
+body{
+    border: solid;
+}
+
+/* NAME */
+
+.name{
+    margin-bottom: 5px;
+    margin-left: 44px;
+    text-decoration: overline;
+    margin-top: 29px;
+}
+
+.name h1{
+    margin: 0;
+}
+
+/* TITLE */
+
+.title{
+    font-size: 15px;
+    color: green;
+    margin-bottom: 5px;
+    margin-left: 44px;
+}
+
+/* TEXT */
+
+.text{
+    font-size: 13px;
+    margin-left: 44px;
+    margin-top: 0;
+}
+
+.text p{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.text ul{
+    margin-left: -80px;
+    margin-top: -8px;
+}
+
+.text li{
+    margin-top: 0;
+}
+
+/* PLACE */
+
+.place{
+    color: blue;
+    margin-left: 0;
+    margin-bottom: 0;
+}
