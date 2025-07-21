@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header{
+    display: inline-block;
+    position: relative;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: baseline;
+    float: right;
+    position: relative;
+}
+
+nav a{
+    list-style: none;
+}
+
+/* REVIEVWS */
+
+.reviews blockquote{
+    display: inline-block;
+    border: solid black 1px;
+    width: 15%;
+}
+
+.reviews blockquote footer{
+    color: gray;
+    margin-left: 5px;
+}
+
+.reviews blockquote p {
+    margin-left: 5px;
+}
