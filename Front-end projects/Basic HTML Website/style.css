@@ -5,21 +5,25 @@ body{
 
 /* HEADER */
 
-header{
-    display: inline-block;
-    position: relative;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul{
-    list-style: none;
-    display: inline-flex;
-    align-items: baseline;
-    float: right;
-    position: relative;
+nav {
+  flex-grow: 1;
 }
 
-nav a{
-    list-style: none;
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo img {
+  border-radius: 8px;
 }
 
 /* REVIEVWS */
