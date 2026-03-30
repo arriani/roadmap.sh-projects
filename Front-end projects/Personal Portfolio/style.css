@@ -3,6 +3,15 @@ body{
     padding: 0;
 }
 
+section{
+  padding: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 /* HEADER */
 
 header {
@@ -35,22 +44,168 @@ nav ul li{
 .reviews blockquote{
     display: inline-block;
     border: solid black 1px;
-    width: 15%;
+    width: 20%;
 }
 
 .reviews blockquote footer{
     color: gray;
     margin-left: 5px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border: none;
 }
 
 .reviews blockquote p {
     margin-left: 5px;
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
 
+.reviews{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 /* MAIN */
 
 .main h1{
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  display: flex;
+  
 }
+
+.main h3{
+  display: flex;
+  margin-top: -33px;
+}
+.main{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* TABLE */
+
+.table{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr;
+}
+
+/* PROJECT */
+
+.project{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+.project ul{
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.project h2{
+  text-align: left;
+}
+
+.project li{
+  margin-bottom: 1rem;
+}
+
+.project p{
+  margin: 0;
+}
+
+.project h2{
+  margin-bottom: 0;
+}
+
+
+/* WORK */
+
+.work{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  grid-area: 1 / 4 / 2 / 8;
+
+}
+
+.work p{
+  padding: 0;
+  margin: 0;
+}
+
+.work a{
+  color: gray;
+}
+
+
+/* EDUCATION */
+
+.education{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  grid-area: 1 / 8 / 2 / 11;
+
+}
+
+.education p{
+  margin: 0;
+}
+
+
+
+/* FOOTER */
+
+footer p{
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+
+}
+
+footer{
+border-top: solid black 1px;
+}
+
+/* ARTICLES */
+
+.articles{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.articles ul{
+  list-style: none;
+}
+
+/* CONTACT */
+
+.contact{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact ul{
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.contact a{
+  text-decoration: none;
+}
+
